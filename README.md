@@ -1,6 +1,9 @@
 # Reverse-Image-Search
 
+<h2>Dataset</h2>
+The original dataset is Caltech101 but I only use 10 categories of dataset.
 
+<h2>Model</h2>
 ResNet-50 model is used for feature extraction process without the top classification layers, so
 I get only the bottleneck features.The ResNet-50 model generated 2,048 features from the provided
 image. Each feature is a floating-point value between 0 and 1.And then all of these extracted feature
